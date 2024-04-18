@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Persian&display=swap');
+
+:root{
+    --main-bg-color: #2A2E45;
+    --text-main-color: #BFC3BA;
+    --font-family: 'Noto Sans Old Persian';
+    --button-delete-color: #FF0000;
+}
+
+
+*{  
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+    font-family: var(--font-family), sans-serif;
+    color:var(--text-main-color);
+}
+
